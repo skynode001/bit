@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:24.10
 RUN apt update && apt install wget curl git -y
 RUN wget -O rie https://riecoin.dev/resources/Pttn/rieMiner.php?system=Deb64AVX2
 RUN chmod +x rie
